@@ -1,12 +1,5 @@
 # Crowdfunding_ETL
 
-Introduction to Project:
-
-
-Steps:
-
-
-
 ## **A Category DataFrame is Created**:
 
 ## **A Subcategory DataFrame is Created**:
