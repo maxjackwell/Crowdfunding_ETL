@@ -3,11 +3,14 @@
 ## **Introduction**:
 The goal for the ETL mini project was to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After we transformed the data, we created four CSV files and used the CSV file data to create an ERD and a table schema. Finally, we uploaded the CSV file data into a Postgres database. This work was done by **Jack Maxwell and Blake Sandvick**
 
-## **A Category DataFrame is Created**: To start this project we extracted and transformed some excel data and manipulated it into a DataFrame named category with 2 columns consisting of category and category_id. We then exported it into the category csv file.
+## **A Category DataFrame is Created**: 
+To start this project we extracted and transformed some excel data and manipulated it into a DataFrame named category with 2 columns consisting of category and category_id. We then exported it into the category csv file.
 
-## **A Subcategory DataFrame is Created**: We then extracted and transformed the same excel data to create a new DataFrame called subcategory with the columns consisting of subcategory and subcategory_id. We again exported it into the subcategory csv file. 
+## **A Subcategory DataFrame is Created**: 
+We then extracted and transformed the same excel data to create a new DataFrame called subcategory with the columns consisting of subcategory and subcategory_id. We again exported it into the subcategory csv file. 
 
-## **A Campaign DataFrame is Created**: This time we took the same excel data and made another DataFrame called campaign. Now that the DataFrame was created we then renamed the blurb column to description. We then converted the data type of the goal and pledge column to floats. Next we renamed 2 columns and changed them to a datetime formatting. launched_at renamed to launch_date and deadline renamed to end_date. Finally that left us with the following columns: cf_id, contact_id, company_name, description, goal, pledged, outcome, backers_count, country, currency, launch_date, end_date, category_id, and subcategory_id. With all this completed we then exported this into the campaign csv file. 
+## **A Campaign DataFrame is Created**: 
+This time we took the same excel data and made another DataFrame called campaign. Now that the DataFrame was created we then renamed the blurb column to description. We then converted the data type of the goal and pledge column to floats. Next we renamed 2 columns and changed them to a datetime formatting. launched_at renamed to launch_date and deadline renamed to end_date. Finally that left us with the following columns: cf_id, contact_id, company_name, description, goal, pledged, outcome, backers_count, country, currency, launch_date, end_date, category_id, and subcategory_id. With all this completed we then exported this into the campaign csv file. 
 
 ## **A Contacts DataFrame is Created**:
 
