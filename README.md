@@ -6,14 +6,14 @@ Introduction to Project:
 Steps:
 
 
-Images and Steps of postgresSQL
 
+## **A Category DataFrame is Created**:
 
+## **A Subcategory DataFrame is Created**:
 
+## **A Campaign DataFrame is Created**:
 
-
-
-
+## **A Contacts DataFrame is Created**:
 
 ## **A Crowdfunding Database is Created**:
 We began this step by starting on the website QuickDataBaseDiagrams in order to create the schema. This image shows the first step of creating a database.
