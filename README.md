@@ -13,6 +13,9 @@ We then extracted and transformed the same excel data to create a new DataFrame 
 This time we took the same excel data and made another DataFrame called campaign. Now that the DataFrame was created we then renamed the blurb column to description. We then converted the data type of the goal and pledge column to floats. Next we renamed 2 columns and changed them to a datetime formatting. launched_at renamed to launch_date and deadline renamed to end_date. Finally that left us with the following columns: cf_id, contact_id, company_name, description, goal, pledged, outcome, backers_count, country, currency, launch_date, end_date, category_id, and subcategory_id. With all this completed we then exported this into the campaign csv file. 
 
 ## **A Contacts DataFrame is Created**:
+For this step we chose to use python dictionary method to create the final DataFrame that was named contacts and exported from another excel file. First we iterated through the DataFrame and converted each row into a dictionary. We then created another new DataFrame with the extracted data. We split the name columns into first and last names and created new columns for each. We then cleaned the data for better readability and exported it into the contacts csv file. 
+
+The work for all the above steps can be seen and followed along with in the ETL_Mini_Project_JMaxwell_Bsandvick.ipynb
 
 ## **A Crowdfunding Database is Created**:
 We began this step by starting on the website QuickDataBaseDiagrams in order to create the schema. 
