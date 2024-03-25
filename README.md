@@ -1,21 +1,21 @@
 # Crowdfunding_ETL
 
 ## **Introduction**:
-The goal for the ETL mini project was to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After we transformed the data, we created four CSV files and used the CSV file data to create an ERD and a table schema. Finally, we uploaded the CSV file data into a Postgres database. This work was done by **Jack Maxwell and Blake Sandvick**
+The goal of the ETL mini-project was to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After transforming the data, we created four CSV files and used the CSV file data to create an ERD and a table schema. Finally, we uploaded the CSV file data into a Postgres database. This work was done by **Jack Maxwell and Blake Sandvick**
 
 ## **A Category DataFrame is Created**: 
-To start this project we extracted and transformed some excel data and manipulated it into a DataFrame named category with 2 columns consisting of category and category_id. We then exported it into the category csv file.
+To start this project, we extracted and transformed some Excel data, manipulating it into a DataFrame named 'category' with 2 columns: 'category' and 'category_id.' We then exported it to the 'category.csv' file.".
 
 ## **A Subcategory DataFrame is Created**: 
-We then extracted and transformed the same excel data to create a new DataFrame called subcategory with the columns consisting of subcategory and subcategory_id. We again exported it into the subcategory csv file. 
+We then extracted and transformed the same Excel data to create a new DataFrame called 'subcategory' with columns consisting of 'subcategory' and 'subcategory_id.' We exported it again to the 'subcategory.csv' file.
 
 ## **A Campaign DataFrame is Created**: 
-This time we took the same excel data and made another DataFrame called campaign. Now that the DataFrame was created we then renamed the blurb column to description. We then converted the data type of the goal and pledge column to floats. Next we renamed 2 columns and changed them to a datetime formatting. launched_at renamed to launch_date and deadline renamed to end_date. Finally that left us with the following columns: cf_id, contact_id, company_name, description, goal, pledged, outcome, backers_count, country, currency, launch_date, end_date, category_id, and subcategory_id. With all this completed we then exported this into the campaign csv file. 
+This time, we used the same Excel data to create another DataFrame called 'campaign.' Once the DataFrame was created, we renamed the 'blurb' column to 'description.' Subsequently, we converted the data type of the 'goal' and 'pledge' columns to floats. Next, we renamed two columns and changed their formatting to datetime: 'launched_at' was renamed to 'launch_date,' and 'deadline' was renamed to 'end_date.' Finally, this process resulted in the following columns: 'cf_id,' 'contact_id,' 'company_name,' 'description,' 'goal,' 'pledged,' 'outcome,' 'backers_count,' 'country,' 'currency,' 'launch_date,' 'end_date,' 'category_id,' and 'subcategory_id.' With all these steps completed, we exported this data to the 'campaign.csv' file.
 
 ## **A Contacts DataFrame is Created**:
-For this step we chose to use python dictionary method to create the final DataFrame that was named contacts and exported from another excel file. First we iterated through the DataFrame and converted each row into a dictionary. We then created another new DataFrame with the extracted data. We split the name columns into first and last names and created new columns for each. We then cleaned the data for better readability and exported it into the contacts csv file. 
+For this step, we chose to use Python dictionary methods to create the final DataFrame named 'contacts,' which was exported from another Excel file. Firstly, we iterated through the DataFrame and converted each row into a dictionary. Next, we created a new DataFrame with the extracted data. We split the 'name' column into 'first_name' and 'last_name' and created new columns for each. Then, we cleaned the data for better readability and exported it to the 'contacts.csv' file.
 
-The work for all the above steps can be seen and followed along with in the ETL_Mini_Project_JMaxwell_Bsandvick.ipynb
+All the work for the above steps can be seen and followed in the ETL_Mini_Project_JMaxwell_Bsandvick.ipynb notebook.
 
 ## **A Crowdfunding Database is Created**:
 We began this step by starting on the website QuickDataBaseDiagrams in order to create the schema. 
